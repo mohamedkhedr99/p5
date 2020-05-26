@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/default_theme.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section class="option-box">
+      <div class="color-option">
+        <h4>color option</h4>
+        <ul class="list-unstyled">
+          <li data-value="css/default_theme.css"></li>
+          <li data-value="css/blue_theme.css"></li>
+          <li data-value="css/green_theme.css"></li>
+          <li data-value="css/gold_theme.css"></li>
+        </ul>
+      </div>
+      <i class="fa fa-gear fa-3x gear-check"></i>
+    </section>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#"
+            >App<span class="main-text">Theme</span></a
+          >
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Services <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">paln1</a></li>
+                <li><a href="#">paln2</a></li>
+                <li><a href="#">plan3</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">plan4</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">plan5</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div
+      id="carousel-example-generic"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carousel-example-generic"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img
+            src="img/c/apple-business-computer-connection-392018.jpg"
+            alt="pic 1"
+          />
+          <div class="carousel-caption">
+            <h1>Programming</h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              iste blanditiis eveniet quibusdam dignissimos aspernatur
+              distinctio, voluptatem suscipit ratione dolores, ad officiis iusto
+              ipsum modi quis asperiores minus quas beatae.
+            </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="img/c/blank-business-composition-computer-373076.jpg"
+            alt="pic 2"
+          />
+          <div class="carousel-caption">
+            <h1>Programming</h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              iste blanditiis eveniet quibusdam dignissimos aspernatur
+              distinctio, voluptatem suscipit ratione dolores, ad officiis iusto
+              ipsum modi quis asperiores minus quas beatae.
+            </p>
+            <div class="btn btn-primary">Read More</div>
+            <div class="btn btn-danger">Buy Now</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="img/c/business-computer-connection-contemporary-450035.jpg"
+            alt="pic 3"
+          />
+          <div class="carousel-caption">
+            <h1>Programming</h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              iste blanditiis eveniet quibusdam dignissimos aspernatur
+              distinctio, voluptatem suscipit ratione dolores, ad officiis iusto
+              ipsum modi quis asperiores minus quas beatae.
+            </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/c/woman-using-silver-laptop-2265488.jpg" alt="pic 4" />
+          <div class="carousel-caption">
+            <h1>Programming</h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              iste blanditiis eveniet quibusdam dignissimos aspernatur
+              distinctio, voluptatem suscipit ratione dolores, ad officiis iusto
+              ipsum modi quis asperiores minus quas beatae.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a
+        class="left carousel-control"
+        href="#carousel-example-generic"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#carousel-example-generic"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <section class="about text-center wow bounceIn">
+      <div class="container">
+        <h1>Meet Our New Template <span>App Theme.</span></h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum,
+          maiores autem perspiciatis quae mollitia hic! Sit repellat sequi
+          doloremque atque, ratione possimus unde iusto quo rem id aspernatur
+          eos nesciunt.
+        </p>
+      </div>
+    </section>
+
+    <section class="features text-center">
+      <div class="container">
+        <h1>Features</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span
+                class="glyphicon glyphicon-ok hvr-bob"
+                aria-hidden="true"
+              ></span>
+              <h4>100% Responsive</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi modi reprehenderit non harum. Ex corporis harum,
+                dolorum iure nesciunt illo dolores reprehenderit excepturi autem
+                voluptatum fugit nam ea ratione modi.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span
+                class="glyphicon glyphicon-thumbs-up hvr-bob"
+                aria-hidden="true"
+              ></span>
+              <h4>Retina Ready</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi modi reprehenderit non harum. Ex corporis harum,
+                dolorum iure nesciunt illo dolores reprehenderit excepturi autem
+                voluptatum fugit nam ea ratione modi.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span
+                class="glyphicon glyphicon-eye-open hvr-bob"
+                aria-hidden="true"
+              ></span>
+              <h4>Awesome Display</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi modi reprehenderit non harum. Ex corporis harum,
+                dolorum iure nesciunt illo dolores reprehenderit excepturi autem
+                voluptatum fugit nam ea ratione modi.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span
+                class="glyphicon glyphicon-pencil hvr-bob"
+                aria-hidden="true"
+              ></span>
+              <h4>Well Doucumnted</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi modi reprehenderit non harum. Ex corporis harum,
+                dolorum iure nesciunt illo dolores reprehenderit excepturi autem
+                voluptatum fugit nam ea ratione modi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonilas text-center">
+      <div class="container">
+        <h1>What Our Clients Say</h1>
+
+        <div
+          id="carousel_testimonilas"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- Indicators -->
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                quisquam aperiam inventore impedit facere, maxime provident
+                rerum voluptatibus minus, consectetur magni? Ab esse dolores
+                commodi iure excepturi ullam suscipit quam!
+              </p>
+
+              <span>mohamed khedr</span>
+            </div>
+
+            <div class="item">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                quisquam aperiam inventore impedit facere, maxime provident
+                rerum voluptatibus minus, consectetur magni? Ab esse dolores
+                commodi iure excepturi ullam suscipit quam!
+              </p>
+
+              <span>abdallah ati</span>
+            </div>
+
+            <div class="item">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                quisquam aperiam inventore impedit facere, maxime provident
+                rerum voluptatibus minus, consectetur magni? Ab esse dolores
+                commodi iure excepturi ullam suscipit quam!
+              </p>
+              <span>yehya fouda</span>
+            </div>
+
+            <div class="item">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                quisquam aperiam inventore impedit facere, maxime provident
+                rerum voluptatibus minus, consectetur magni? Ab esse dolores
+                commodi iure excepturi ullam suscipit quam!
+              </p>
+              <span>mohamed elnagar</span>
+            </div>
+          </div>
+
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel_testimonilas"
+              data-slide-to="0"
+              class="active"
+            >
+              <img src="img/7.png" alt="" />
+            </li>
+            <li data-target="#carousel_testimonilas" data-slide-to="1">
+              <img src="img/6.png" alt="" />
+            </li>
+            <li data-target="#carousel_testimonilas" data-slide-to="2">
+              <img src="img/7.png" alt="" />
+            </li>
+            <li data-target="#carousel_testimonilas" data-slide-to="3">
+              <img src="img/7.png" alt="" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="price-table text-center">
+      <div class="container">
+        <h1>Our Amazing Prices</h1>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-13">
+            <div class="price-box">
+              <h2 class="text-primary">Plan 1</h2>
+              <p class="center-block">$40</p>
+              <ul class="list-unstyled">
+                <li>Space: 30 Gb</li>
+                <li>Email: 20</li>
+                <li>IPs: 2 IP</li>
+                <li>Databases:10</li>
+                <li>FTPAccounts: 4</li>
+              </ul>
+              <a href="#" class="btn btn-primary hvr-shadow-radial"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-13">
+            <div class="price-box">
+              <h2 class="text-success">Plan 2</h2>
+              <p class="center-block">$40</p>
+              <ul class="list-unstyled">
+                <li>Space: 30 Gb</li>
+                <li>Email: 20</li>
+                <li>IPs: 2 IP</li>
+                <li>Databases:10</li>
+                <li>FTPAccounts: 4</li>
+              </ul>
+              <a href="#" class="btn btn-success hvr-shadow-radial"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-13">
+            <div class="price-box">
+              <h2 class="text-info">Plan 3</h2>
+              <p class="center-block">$40</p>
+              <ul class="list-unstyled">
+                <li>Space: 30 Gb</li>
+                <li>Email: 20</li>
+                <li>IPs: 2 IP</li>
+                <li>Databases:10</li>
+                <li>FTPAccounts: 4</li>
+              </ul>
+              <a href="#" class="btn btn-info hvr-shadow-radial">Order Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-13">
+            <div class="price-box">
+              <h2 class="text-danger">Plan 4</h2>
+              <p class="center-block">$40</p>
+              <ul class="list-unstyled">
+                <li>Space: 30 Gb</li>
+                <li>Email: 20</li>
+                <li>IPs: 2 IP</li>
+                <li>Databases:10</li>
+                <li>FTPAccounts: 4</li>
+              </ul>
+              <a href="#" class="btn btn-danger hvr-shadow-radial">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-team text-center">
+      <div class="team">
+        <div class="container">
+          <h1>Meet Our Awesome Team</h1>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="person">
+                <img
+                  class="img-circle"
+                  src="img/adult-beard-boy-casual-220453.jpg"
+                  alt=""
+                />
+                <h3>mohamed</h3>
+                <p>Front-End Enginner</p>
+                <i class="fa fa-facebook-square fa-lg"></i>
+                <i class="fa fa-google-plus-square fa-lg"></i>
+                <i class="fa fa-twitter-square fa-lg"></i>
+                <i class="fa fa-youtube-square fa-lg"></i>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="person">
+                <img
+                  class="img-circle"
+                  src="img/smiling-woman-wearing-black-sweater-1587009 (1).jpg"
+                  alt=""
+                />
+                <h3>walaa</h3>
+                <p>Front-End Enginner</p>
+                <i class="fa fa-facebook-square fa-lg"></i>
+                <i class="fa fa-google-plus-square fa-lg"></i>
+                <i class="fa fa-twitter-square fa-lg"></i>
+                <i class="fa fa-youtube-square fa-lg"></i>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="person">
+                <img
+                  class="img-circle"
+                  src="img/women-s-white-and-black-button-up-collared-shirt-774909 (1).jpg"
+                  alt=""
+                />
+                <h3>walaa</h3>
+                <p>Front-End Enginner</p>
+                <i class="fa fa-facebook-square fa-lg"></i>
+                <i class="fa fa-google-plus-square fa-lg"></i>
+                <i class="fa fa-twitter-square fa-lg"></i>
+                <i class="fa fa-youtube-square fa-lg"></i>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="person">
+                <img
+                  class="img-circle"
+                  src="img/man-in-white-dress-shirt-holding-suit-jacket-1043474.jpg"
+                  alt=""
+                />
+                <h3>mohamed</h3>
+                <p>Front-End Enginner</p>
+                <i class="fa fa-facebook-square fa-lg"></i>
+                <i class="fa fa-google-plus-square fa-lg"></i>
+                <i class="fa fa-twitter-square fa-lg"></i>
+                <i class="fa fa-youtube-square fa-lg"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe text-center">
+      <div class="container">
+        <h1>Keep In touch</h1>
+        <p class="lead">Sign Up For Newsletter</p>
+        <form class="form-inline">
+          <input
+            class="form-control input-lg"
+            type="text"
+            placeholder="Write Your Email"
+          />
+          <button class="btn btn-danger btn-lg">
+            <i class="fa fa-edit fa-lg"></i> subscribe
+          </button>
+        </form>
+
+        <div class=""></div>
+      </div>
+    </section>
+
+    <section class="status text-center">
+      <div class="data">
+        <div class="container">
+          <h1>Our Status</h1>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats">
+                <i class="fa fa-users fa-5x"></i>
+                <p>10,00</p>
+                <span>users</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats">
+                <i class="fa fa-comments fa-5x"></i>
+                <p>10,00</p>
+                <span>comments</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats">
+                <i class="fa fa-suitcase fa-5x"></i>
+                <p>10,00</p>
+                <span>projects</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats">
+                <i class="fa fa-support fa-5x"></i>
+                <p>10,00</p>
+                <span>supports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ourskills">
+      <div class="container">
+        <h1 class="text-center">Our Skills</h1>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="skills-progress">
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-success progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%;"
+                >
+                  html5/css
+                </div>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-danger progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 90%;"
+                >
+                  JS
+                </div>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-warning progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 70%;"
+                >
+                  php
+                </div>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-info progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%;"
+                >
+                  wordpress
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-offset-1">
+            <div class="skills-info">
+              <h3>About The team</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestiae, praesentium. Praesentium iste quidem vero, cupiditate
+                distinctio sequi. Ullam sint, ut asperiores cumque placeat velit
+                explicabo, quia fugit facilis, suscipit odio?
+              </p>
+              <button type="button" class="btn btn-primary hvr-shadow-radial">
+                Hire Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact text-center">
+      <div class="fields">
+        <div class="container">
+          <div class="row">
+            <i class="fa fa-headphones fa-5x"></i>
+            <h1>Tell Us What you Fell</h1>
+            <p class="lead">Feel Free To Contact Us Anytime</p>
+
+            <form role="form">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="user name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="Email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="Phone"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <textarea
+                    class="form-control input-lg"
+                    placeholder="your text"
+                  ></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+                  contact Us
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-c">
+      <div class="container">
+        <div class="row">
+          <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>SiteMap</h3>
+            <ul class="list-unstyled three-columns">
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Faq</li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Faq</li>
+            </ul>
+
+            <ul class="list-unstyled social">
+              <li><i class="fa fa-facebook fa-2x"></i></li>
+              <li><i class="fa fa-twitter fa-2x"></i></li>
+              <li><i class="fa fa-google-plus fa-2x"></i></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Lastet Articles</h3>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img
+                  class="media-object"
+                  src="img/pngguru.com (11).png"
+                  alt=""
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading+">
+                  Programming
+                </h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img
+                  class="media-object"
+                  src="img/pngguru.com (11).png"
+                  alt=""
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading+">
+                  Programming
+                </h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img
+                  class="media-object"
+                  src="img/pngguru.com (11).png"
+                  alt=""
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading+">
+                  Programming
+                </h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="m-w">
+              <h3>Our works</h3>
+              <img
+                class="img-thumbnail"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+              <img
+                class="img-thumbnail"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+              <img
+                class="img-thumbnail"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+              <img
+                class="img-thumbnail"
+                src="img/pngguru.com (10).png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright text-center">
+        Copy Right &copy; 2020
+      </div>
+    </section>
+
+    <section class="load-screen">
+      <div class="spinner"></div>
+    </section>
+
+    <div id="scroll-top">
+      <i class="fa fa-chevron-up fa-3x"></i>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

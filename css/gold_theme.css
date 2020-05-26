@@ -1,0 +1,46 @@
+.option-box .color-option {
+  border: 4px solid gold;
+}
+
+.option-box .gear-check {
+  background: gold;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: gold;
+}
+
+.navbar-inverse .navbar-brand .main-text {
+  color: gold;
+}
+
+.dropdown-menu {
+  border-top: 3px solid gold;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: gold;
+}
+
+.dropdown-menu .divider {
+  background-color: gold;
+}
+
+.carousel-indicators .active {
+  background: gold;
+}
+
+.about h1 span {
+  color: gold;
+}
+
+.testimonilas span {
+  color: gold;
+}
+
+.testimonilas .carousel-indicators li.active {
+  border: 3px solid gold;
+}

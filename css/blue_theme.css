@@ -1,0 +1,46 @@
+.option-box .color-option {
+  border: 4px solid blue;
+}
+
+.option-box .gear-check {
+  background: blue;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: blue;
+}
+
+.navbar-inverse .navbar-brand .main-text {
+  color: blue;
+}
+
+.dropdown-menu {
+  border-top: 3px solid blue;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: blue;
+}
+
+.dropdown-menu .divider {
+  background-color: blue;
+}
+
+.carousel-indicators .active {
+  background: blue;
+}
+
+.about h1 span {
+  color: blue;
+}
+
+.testimonilas span {
+  color: blue;
+}
+
+.testimonilas .carousel-indicators li.active {
+  border: 3px solid blue;
+}

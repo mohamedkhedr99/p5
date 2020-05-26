@@ -1,0 +1,46 @@
+.option-box .color-option {
+  border: 4px solid green;
+}
+
+.option-box .gear-check {
+  background: green;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: green;
+}
+
+.navbar-inverse .navbar-brand .main-text {
+  color: green;
+}
+
+.dropdown-menu {
+  border-top: 3px solid green;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: green;
+}
+
+.dropdown-menu .divider {
+  background-color: green;
+}
+
+.carousel-indicators .active {
+  background: green;
+}
+
+.about h1 span {
+  color: green;
+}
+
+.testimonilas span {
+  color: green;
+}
+
+.testimonilas .carousel-indicators li.active {
+  border: 3px solid green;
+}
